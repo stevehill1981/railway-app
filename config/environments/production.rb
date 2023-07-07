@@ -90,4 +90,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  # Set the hostname
+  config.hosts << "rails-production-712e.up.railway.app"
 end
